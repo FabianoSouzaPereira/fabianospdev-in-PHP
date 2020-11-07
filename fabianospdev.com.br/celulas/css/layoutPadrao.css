@@ -1,0 +1,957 @@
+@charset "UTF-8";
+
+
+.layoutPadrao{
+	width: 95%;
+	/* height: 650px; */
+	background-color:#ffffff;
+	margin: 10px auto 150px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+div#relatorio label{
+	font-size: 16px;
+}
+
+div#relatorio input:hover{
+	box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+	border: 1px solid #f4511e;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.btn-lista:hover{
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, .2);
+	border: 1px solid #f4511e;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.btn-apaga {
+	padding: 10px 16px;
+	font-size: 30px;
+	line-height: 0.6666666;
+	border-radius: 6px;
+	color:white;
+	background-color:blue;
+}
+/*posicao btns voltar - apagar */
+.navegacao {
+		margin:0% 2% 0% 2%;	
+		width: 95%;
+		margin-top:-50px;
+}
+.btn-apaga:hover{
+	box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+	border: 1px solid #f4511e;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.btn-voltar {
+	padding: 10px 16px;
+	font-size: 15px;
+	line-height: 0.6666666;
+	border-radius: 6px;	
+	background-color:blue;
+}
+.btn-voltar:hover {
+	box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+	border: 1px solid #f4511e;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.btn-novo {
+	padding: 10px 16px;
+	font-size: 15px;
+	line-height: 0.6666666;
+	border-radius: 6px;	
+	background-color:blue;
+}
+.btn-novo:hover {
+	box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+	border: 1px solid #f4511e;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.btn-associa {
+	padding: 10px 16px;
+	font-size: 15px;
+	line-height: 0.6666666;
+	border-radius: 6px;	
+	background-color:blue;
+}
+
+.btn-associa:hover {
+	box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+	border: 1px solid #f4511e;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+#aviso{
+	display:inline-block;
+	margin: -30px 0px 0px 150px;
+	width: 40%; 
+	font-family:cursive;
+	font-style:oblique;
+	color:green;
+}
+
+.hidden{
+	display: none;
+}
+.unhidden{
+	display: inline-block;
+}
+
+select[readonly]{
+  background: #eee; /*Simular campo inativo - Sugestão @GabrielRodrigues*/
+  pointer-events: none;
+  touch-action: none;
+}
+
+.colorir{
+	background-color:#0000ff;
+}
+
+.sombra-efe:hover{
+	box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+	border: 1px solid #f4511e;
+	-webkit-transform: scale(1.02);
+	transform: scale(1.1);
+}
+.tela{
+	margin:0px auto;
+  padding:2%; 
+}
+.tela{
+	height: auto;
+  width: 100%;
+	background-image: url("../images/ceu_nuvens-2142x1071.jpg");
+	background-repeat : repeat;
+	background-size:auto;
+	overflow: hidden;
+	z-index: -110;
+}
+
+
+
+
+		/*************************** INICIO MEDIA SCREENS ********************************/
+	
+	@media screen and (min-width: 250px) and (max-width: 500px) and (orientation: portrait){
+	
+	div#conteudo-principal{
+		margin-top:-50px !important;
+	}
+	div#interface{
+		margin: 10px;
+		width:90% !important;
+	}
+	a#titulo-menuTop{
+		font-size:9px !important;
+		margin-left:50px;
+	}
+	div#myNavbar li{
+		font-size: 5px !important;
+	}
+  form#login{
+		width: 80% !important;
+		margin: 10% auto !important;
+		border: 1px solid;
+		height: 30% !important;
+	}
+	
+	form#logout {
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 10%;
+		border: 1px solid;
+	}
+	
+	section#begin-section{
+	  width:110% !important;
+	  margin-left:-10%;
+	}
+	
+	h1#hgroup-title{
+		font-family: Montserrat;
+		color:green;
+		font-size:10px;
+	}
+	h4{
+	  font-size: 7px;
+	  margin-left:20px;
+	  font-family:Montserrat;
+		color:blue;
+	}
+	
+
+
+	.accordion {
+	  padding: 18px;
+	  width: 100% !important;
+	  margin: 0px 0px 0px 0px !important;
+	  text-align: left;
+		font-size: 8px; 
+	}
+	div.panel1 {
+	  padding: 0 18px;
+	  width: 110% !important;
+	  margin: 0px 0px 0px 20px; 
+	  color:blue;
+	  font-size:3px;
+	}
+
+	.accordion:after {
+	  content: '\02795'; /* Unicode character for "plus" sign (+) */
+	  font-size: 4px !important;
+	  float: left !important;
+	  margin-left: 0px !important;
+	}
+	
+	.active:after {
+	  content: "\2796"; /* Unicode character for "minus" sign (-) */
+	}
+	
+	/** Animated Accordion (Slide Down) */
+	.panel1 {
+	 	  padding: 0 18px;
+		  max-height: 0;
+		  margin-left:-15px !important;
+			width: 280px !important;
+			
+	}
+
+	div#grupo-accordion::after{
+	 font-size: 2px;
+	 width:380px;
+	 src: url(../paragrafo_begin.html);
+		
+	}
+}
+
+@media screen and (min-width: 250px) and (max-width: 500px) and (orientation: landscape){
+	
+	table#tbCelulas{
+	font-size:2px !important;
+	color:red !important;
+	}
+	.table-responsive{ font-size:2px !important; }
+	div#conteudo-principal{
+		margin-top:-50px !important;
+	}
+
+	table#tbCelulas tbody tr{ max-width:340px !important;  }
+	
+	div#interface{
+		margin: 10px;
+		width:90% !important;
+	}
+	a#titulo-menuTop{
+		font-size:9px !important;
+		margin-left:50px !important;
+	}
+	div#myNavbar tr li{
+		font-size: 5px !important;
+		max-width: 200px !important;
+		color:blue;
+	}
+	
+  form#login{
+		width: 80% !important;
+		margin: 10% auto !important;
+		border: 1px solid;
+		height: 30% !important;
+	}
+	
+	form#logout {
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 10%;
+		border: 1px solid;
+	}
+	
+	section#begin-section{
+	  width:110% !important;
+	  margin-left:-10%;
+	}
+	
+	h1#hgroup-title{
+		font-family: Montserrat;
+		color:green;
+		font-size:10px;
+	}
+	h4{
+	  font-size: 7px;
+	  margin-left:20px;
+	  font-family:Montserrat;
+		color:blue;
+	}
+	
+
+	header#begin-header{
+
+	}
+	.accordion {
+	  padding: 18px;
+	  width: 100% !important;
+	  margin: 0px 0px 0px 0px !important;
+	  text-align: left;
+		font-size: 8px; 
+	}
+	div.panel1 {
+	  padding: 0 18px;
+	  width: 110% !important;
+	  margin: 0px 0px 0px 20px; 
+	  color:blue;
+	  font-size:3px;
+	}
+
+	.accordion:after {
+	  content: '\02795'; /* Unicode character for "plus" sign (+) */
+	  font-size: 4px !important;
+	  float: left !important;
+	  margin-left: 0px !important;
+	}
+	
+	.active:after {
+	  content: "\2796"; /* Unicode character for "minus" sign (-) */
+	}
+	
+	/** Animated Accordion (Slide Down) */
+	.panel1 {
+	 	  padding: 0 18px;
+		  max-height: 0;
+		  margin-left:-15px !important;
+			width: 280px !important;
+			
+	}
+
+	div#grupo-accordion::after{
+	 font-size: 2px;
+	 width:380px;
+	 src: url(../paragrafo_begin.html);
+		
+	}
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 700px) and (orientation: portrait){
+
+	table#tbCelulas{
+		font-size:2px !important;
+		color:red !important;
+	}
+	.table-responsive{ font-size:2px !important; }
+	div#conteudo-principal{
+		margin-top:-50px !important;
+	}
+
+	table#tbCelulas tbody tr{ max-width:340px !important;  }
+	
+	div#conteudo-principal{
+		margin-top:-50px !important;
+	}
+	div#interface{
+		margin: 10px;
+		width:90% !important;
+	}
+	
+  form#login{
+		width: 80% !important;
+		margin: 10% auto !important;
+		border: 1px solid;
+		height: 30% !important;
+	}
+	
+	form#logout {
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 10%;
+		border: 1px solid;
+	}
+	
+	section#begin-section{
+	  width:110% !important;
+	  margin-left:-10%;
+	}
+	
+	h1#hgroup-title{
+		font-family: Montserrat;
+		color:green;
+		font-size:10px;
+	}
+	h4{
+	  font-size: 7px;
+	  margin-left:20px;
+	  font-family:Montserrat;
+		color:blue;
+	}
+	
+
+	header#begin-header{
+
+	}
+	.accordion {
+	  padding: 18px;
+	  width: 100% !important;
+	  margin: 0px 0px 0px 0px !important;
+	  text-align: left;
+		font-size: 8px; 
+	}
+	div.panel1 {
+	  padding: 0 18px;
+	  width: 110% !important;
+	  margin: 0px 0px 0px 20px; 
+	  color:blue;
+	}
+
+	.accordion:after {
+	  content: '\02795'; /* Unicode character for "plus" sign (+) */
+	  font-size: 4px !important;
+	  float: left !important;
+	  margin-left: 0px !important;
+	}
+	
+	.active:after {
+	  content: "\2796"; /* Unicode character for "minus" sign (-) */
+	}
+	
+	/** Animated Accordion (Slide Down) */
+	.panel1 {
+	 	  padding: 0 18px;
+		  max-height: 0;
+		  margin-left:-15px !important;
+			width: 280px !important;
+			
+	}
+
+	div#grupo-accordion::after{
+	 font-size: 2px;
+	 width:380px;
+	 src: url(../paragrafo_begin.html);
+		
+	}
+}
+
+@media screen and (max-width: 800px) and (min-width: 701px){
+		
+		.layoutPadrao{
+				width: 95%;
+		
+			}
+		form#login {
+		width: 80%;
+		margin: 10% auto;	
+		border: 1px solid;
+	}
+	
+	form#logout {
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 10%;
+		border: 1px solid;
+	}
+			.tela{
+			  	background-repeat: repeat !important;
+			}
+			
+				nav#menu-top a#titulo-menuTop{
+				font-size: 10px !important;
+				margin-left: 50px !important;
+				
+			}
+			nav#menu-top a#voltar{
+			 width:100px !important;
+		
+			}
+			.navegacao {
+		
+			  margin-top:0px !important;
+		
+			}
+				.navegacao p{
+			  font-size: 10px !important;
+			  margin-left:50px !important;
+			  width:300px !important;
+			}
+		
+		/* 6 botoes da tela */	
+		.grid-template-columns {
+			grid-template-columns: 200px 200px 200px;
+		}
+		.grid-template-rows {
+			grid-template-rows: 150px;
+		}
+		
+		.item-1{
+			margin: 100px 50px 0px 150px;
+		}
+		.item-2{
+			margin: 100px 50px 0px 150px;
+		}
+		.item-3{
+			margin: 100px 50px 0px 150px;
+		}
+		.item-4{
+			margin: 100px 50px 0px 150px;
+		}
+		.item-5{
+			margin: 100px 50px 0px 150px;
+		}
+		.item-6{
+			margin: 100px 50px 0px 150px;
+		}
+		
+		.relatorio{
+			width:180px;
+			height:80px;
+			font-size: 15px;
+		}
+		
+			div#relatorio{
+			 height: 950px !important;
+			}
+			
+			div#relatorio .grupoRel{
+			 display:inline-block;
+			 width: 95%;
+			  background-color: yellow !important;
+			}
+			div#relatorio .grupoRel .form-row{
+			 display:inline-block !important;
+			 width: 70% !important;
+			}
+			div#relatorio .grupoRel label{
+			 font-size: 14px;
+			 
+			}
+			div#relatorio div#radio-inputs{
+			margin-top: 600px;
+			
+			}
+			div#relatorio div#radio-inputs div label{
+			font-size: 14px;
+			
+			}
+			
+			div#fundosobre {
+				 background-size: auto !important;
+			}
+		
+}
+
+@media screen and (max-width: 960px) and (min-width: 801px) {
+		.layoutPadrao{
+		width: 95%;
+		height: 1600px !important;
+
+	}
+	
+	  form#login {
+		width: 40% !important;
+		margin: 15% auto;	
+		border: 1px solid;
+	}
+	
+	form#logout {
+		width: 40%;
+		margin: 0 auto;
+		margin-top: 10%;
+		border: 1px solid;
+	}
+	
+	body{
+	  height: 1900px;	
+	}
+	
+	nav#menu-top a#titulo-menuTop{
+		font-size: 10px !important;
+		margin-left: 50px !important;
+	}
+	
+	
+	.navegacao {
+
+	  margin-top:0px !important;
+
+	}
+	
+	.navegacao p{
+	  font-size: 10px !important;
+	  margin-left:50px !important;
+	  width:300px !important;
+	  margin-top:100px;
+	}
+	
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 961px) {
+
+	.layoutPadrao{
+		width: 92% !important;
+		background-color:#ffffff;
+		margin: 30px auto 10px auto !important;
+		box-shadow: 10px 0px 10px rgba(0,0,0,.5);
+    padding: 0px 0px 80px 0px !important;
+	}
+   form#login {
+		width: 40%;
+		margin: 10% auto;	
+		border: 1px solid;
+	}
+	
+	form#logout {
+		width: 40%;
+		margin: 0 auto;
+		margin-top: 10%;
+		border: 1px solid;
+	} 
+	
+	h1#hgroup-title{
+		font-family: Montserrat;
+		color:green;
+
+	}
+	header#begin-header{
+		margin:20px 20px 0px 20px;
+		padding: 10px 0px 0px 0px;	
+	}
+	
+
+	nav#menu-top a#titulo-menuTop{
+		font-size: 15px !important;
+		margin-left: 40px !important;
+	}
+	.navegacao{
+	 margin-top:-55px !important;
+	}
+
+	.navegacao p{
+	  font-size: 12px;
+	  width:400px !important;
+	  margin-left: 100px !important;
+	}
+   
+
+	div#relatorio .grupoRel{
+	 display:inline-block;
+	 width: 95%;
+	 margin: 10px 15px 0px 15px !important;
+	 padding-top:0px;
+	 
+	}
+	div#relatorio .grupoRel .form-row{
+	 display:inline-block !important;
+	 width: 95% !important;
+	 margin: 20px 5px 0px 0px !important;
+	}
+	div#relatorio label{
+	 font-size: 12px !important;
+	  
+	}
+
+	div#relatorio div#radio-inputs{
+	margin-top: 600px;
+	}
+	div#relatorio div#radio-inputs label, input[type=radio]{
+	font-size: 14px !important;
+
+	
+	}
+	
+
+			/* 6 botoes da tela */	
+		.grid-template-columns {
+			grid-template-columns: 250px 250px 250px;
+		}
+		.grid-template-rows {
+			grid-template-rows: 150px;
+		}
+		
+		.item-1{
+			margin: 100px 50px 0px 150px;
+		}
+		.item-2{
+			margin: 100px 50px 0px 150px;
+		}
+		.item-3{
+			margin: 100px 50px 0px 150px;
+		}
+		.item-4{
+			margin: 100px 50px 0px 150px;
+		}
+		.item-5{
+			margin: 100px 50px 0px 150px;
+		}
+		.item-6{
+			margin: 100px 50px 0px 150px;
+		}
+		
+		.relatorio{
+			width:200px;
+			height:100px;
+			font-size: 15px;
+		}
+		div#fundosobre {
+		   background-size: auto !important;
+		}
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1025px){  /*   TODO  ALTERAR DINAMICAMENTE O TAMANHO col-md-4 PARA 1 */
+		
+	.layoutPadrao{
+		width: 92% !important;
+		background-color:#ffffff;
+		margin: 30px auto 10px auto !important;
+		box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+		padding: 0px 0px 80px 0px !important;
+	}
+	body{
+
+	   height: auto !important; 
+
+	}
+
+	h1#hgroup-title{
+		font-family: Montserrat;
+		color:green;
+	}
+	header#begin-header{
+		margin:20px 20px 0px 20px;
+		padding: 10px 0px 0px 0px;
+	}
+	
+	.navegacao{
+	 margin-top:-65px !important;
+	}
+	
+	div#relatorio{
+	 height: auto !important;
+	}
+	
+	div#relatorio .grupoRel{
+	 display:inline-block;
+	 width: 95%;
+	 
+	}
+	div#relatorio .grupoRel .form-row{
+	 display:inline-block !important;
+	 width: 95% !important;
+	 
+	}
+	div#relatorio .grupoRel label{
+	 font-size: 18px; 
+	}
+	
+	div#relatorio label{
+	 font-size: 13px !important;
+	  
+	}
+	
+	div#relatorio div#radio-inputs{
+	  margin: 0px auto 0px 	150px;
+	}
+   
+   form#login {
+		width: 30%;
+		margin: 10% auto;	
+		border: 1px solid;
+	}
+	
+	form#logout {
+		width: 30%;
+		margin: 0 auto;
+		margin-top: 10%;
+		border: 1px solid;
+	}
+   
+}
+
+/* Tamanho meu pc   */
+@media screen and (max-width: 1366px) and (min-width: 1281px) {
+	.layoutPadrao{
+		width: 92% !important;
+		background-color:#ffffff;
+		margin: 30px auto 10px auto !important;
+		box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+		padding: 0px 0px 80px 0px !important;
+	}
+	body{
+
+	   height: auto !important; 
+
+	}
+
+	h1#hgroup-title{
+		font-family: Montserrat;
+		color:green;
+	}
+	header#begin-header{
+		margin:20px 20px 0px 20px;
+		padding: 10px 0px 0px 0px;
+	}
+	
+	.navegacao{
+	 margin-top:-65px !important;
+	}
+	
+	div#relatorio{
+	 height: auto !important;
+	}
+	
+	div#relatorio .grupoRel{
+	 display:inline-block;
+	 width: 95%;
+	 
+	}
+	div#relatorio .grupoRel .form-row{
+	 display:inline-block !important;
+	 width: 95% !important;
+	 
+	}
+	div#relatorio .grupoRel label{
+	 font-size: 18px; 
+	}
+	div#relatorio div#radio-inputs{
+	  margin: 0px auto 0px 	150px;
+	}
+   
+   form#login {
+		width: 30%;
+		margin: 10% auto;	
+		border: 1px solid;
+	}
+	
+	form#logout {
+		width: 30%;
+		margin: 0 auto;
+		margin-top: 10%;
+		border: 1px solid;
+	}
+   
+
+}
+
+@media screen and (max-width: 1560px) and (min-width: 1367px){
+	
+	.layoutPadrao{
+		width: 95%;
+		height: 800px;
+		background-color:#ffffff;
+		margin: 10px auto 0px auto;
+		box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+  form#login {
+		width: 40%;
+		margin: 10% auto;	
+		border: 1px solid;
+	}
+	
+	form#logout {
+		width: 50%;
+		margin: 0 auto;
+		margin-top: 15%;
+		border: 1px solid;
+	}
+	body{
+	  height: 900px !important; 
+	}
+		div#relatorio .grupoRel{
+	 display:inline-block;
+	 width: 95%;
+
+	}
+	div#relatorio .grupoRel .form-row{ 
+	 display:inline-block !important;
+	 width: 95% !important;
+	 
+	}
+	div#relatorio .grupoRel label{
+	 font-size: 18px;
+	 
+	}
+	div#relatorio div#radio-inputs{
+	margin-top: 800px;
+
+	}
+
+}
+
+
+@media screen and (max-width: 1900px) and (min-width: 1551px){
+		.layoutPadrao{
+		width: 95%;
+		height: 800px !important;
+		background-color:#ffffff;
+		margin: 10px auto 50px auto !important;
+		box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	  form#login {
+		width: 50%;
+		margin: 10% auto;	
+		border: 1px solid;
+	}
+	
+	form#logout {
+		width: 50%;
+		margin: 0 auto;
+		margin-top: 10%;
+		border: 1px solid;
+	}
+	body{
+	  height: auto !important;
+	}
+	div#relatorio{
+	 height: 850px !important;
+	}
+	div#relatorio .grupoRel{
+	 display:inline-block;
+	 width: 95%;
+	 height: 300px !important;
+	}
+	div#relatorio .grupoRel .form-row{
+	 display:inline-block !important;
+	 width: 95% !important;
+	 
+	}
+	div#relatorio .grupoRel label{
+	 font-size: 18px;
+	 
+	}
+	div#relatorio div#radio-inputs{
+	margin-top: 600px;
+	}
+
+ }
+ 
+@media screen and (min-width: 1901px){
+		form#login {
+		width: 30%;
+		margin: 10% auto;	
+		border: 1px solid;
+	}
+	
+	form#logout {
+		width: 30%;
+		margin: 0 auto;
+		margin-top: 10%;
+		border: 1px solid;
+	}
+
+}
+
+       /******************  FIM MEDIAS SCREENS  *******************/
+

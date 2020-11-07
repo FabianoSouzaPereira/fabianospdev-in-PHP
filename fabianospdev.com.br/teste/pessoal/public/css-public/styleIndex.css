@@ -1,0 +1,405 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+
+@font-face {
+	font-family: 'FonteLogo';
+	src: url("/pessoal.fabianospdev.com.br/lib/fonts/Mansalva/Mansalva.ttf")
+}
+
+body {
+	background-color: #408080;
+	color: rgba(0,0,0,1);
+	
+}
+
+div#interface {
+	width: 98%;
+	height: auto;
+	background-color:#ffffff;
+	margin: 80px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+
+}
+div#div-inicial{
+	width:100%;
+}
+
+@media screen and (min-width: 800px) and (max-width: 950px){
+			p#textoinicial{
+				font: 10px monospace !important;	
+				margin-left:0px !important;	
+				width:400px !important;
+			}
+			div#div-inicial{
+				width:100% !important;
+			}
+			
+			div#conteudo-perfil{
+				margin: 5% 0% 0% 25%;
+				width:400px !important;
+			}
+
+			div#conteudo-perfil{
+				margin: 10% 0% 0% 30% !important;
+			}
+			
+			h2 {
+				font-size: 18px !important;
+				width: 400px !important;
+			}
+
+			h1 {
+				font-size: 26px !important;			
+			}
+			
+			#picone{
+				margin-left:35px;
+			}
+			
+			hgroup#hgroup-h1{
+				position: aboslute;
+				margin:120px auto 10px 200px !important;
+				padding-top: 18px;
+				width: 400px !important;
+				
+			}
+			
+			figure.foto-legenda {
+				position: absolute;
+				margin-top:-200px !important;
+				border: 8px solid white;
+				box-shadow: 1px 1px 4px black;
+				width: 120px !important;
+				height:120px !important;
+			}
+			
+			figure.foto-legenda img {
+				width: 120px !important;
+				height: 120px !important;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top:60px;
+			}
+			
+			figure.foto-legenda figcaption {
+				opacity: 0;
+				position: absolute;
+				top: -10px !important;
+				background-color: rgba(0,0,0,.4);
+				color: white;
+				width: 120px !important;
+				height: 120px !important;
+				padding: 10px;
+				font-size:12px;
+				box-sizing: border-box;
+				-webkit-transition: background-color 1s;
+				-moz-transition: background-color 1s;
+				-o-transition: background-color 1s;
+				-ms-transition: background-colo 1s;
+				transition: background-color 1s;
+			}
+			
+			
+			figure.foto-legenda:hover figcaption{
+				opacity: 1;
+			}
+			
+			figure.foto-trabalhos {
+				position: relative;
+				width: 165px;
+				height: 140px;
+				margin: 20px 0px 50px 12% !important;
+				border: 8px solid white;
+				box-shadow: 1px 1px 4px black;
+			}
+			figure.foto-trabalhos img{
+				width: 120px;
+				height: 120px;
+			
+			}
+			
+			
+			figure.foto-trabalhos h3{
+				font-family: 'Titillium Web', sans-serif;
+				position: absolute;
+				left: -18px;
+				top: 160px;
+			}
+			
+			figure.foto-trabalhos p{
+				position: absolute;
+				left: -45px;
+				top: 190px;
+			}
+			
+			
+			figure.foto-lampada img {
+				width: 60px !important;
+				height: 60px !important;
+			}
+			
+			figure.foto-lampada {
+				float:right;
+				width: 120px !important;
+				height: 80px !important;
+				margin-bottom: 0px  !important;
+				margin-top: -300px !important;
+				margin-right:20px !important;
+
+			}
+			
+			figure.foto-lampada p {
+				margin-top: 0px !important;
+				margin-left:-13px !important;
+				width: 120px !important;
+				margin-bottom: 10px  !important;
+				font-size: 12px;
+			}
+
+			
+			section#conteudos{
+				margin-top: 350px !important;
+			}
+
+} /********************************** FIM MEDEIA SCREAM 800 X 950 *********************************************/
+
+@media screen and (min-width: 951px) and (max-width: 1120px){
+			pre#textoinicial{
+				font: 13px monospace !important;			
+			}
+			
+			div#conteudo-perfil{
+				margin: 8% 0% 0% 30% !important;
+			}
+			
+			h2 {
+				font-size: 22px !important;
+				width: 500px !important;
+			}
+
+			h1 {
+				font-size: 36px !important;			
+			}
+			
+			#picone{
+				margin-left:35px;
+			}
+			
+			hgroup#hgroup-h1{
+				position: aboslute;
+				margin:100px auto 10px 250px !important;
+				padding-top: 18px;
+				width: 720px !important;
+				
+			}
+			
+			figure.foto-trabalhos {
+				position: relative;
+				width: 160px;
+				height: 160px;
+				margin: 80px 0px 50px 15% !important;
+				border: 8px solid white;
+				box-shadow: 1px 1px 4px black;
+			}
+			figure.foto-trabalhos img{
+				width: 160px;
+				height: 160px;
+			
+			}
+			
+			
+			figure.foto-trabalhos h3{
+				font-family: 'Titillium Web', sans-serif;
+				position: absolute;
+				left: -18px;
+				top: 160px;
+			}
+			
+			figure.foto-trabalhos p{
+				position: absolute;
+				left: -45px;
+				top: 190px;
+			}
+			
+			
+			figure.foto-lampada img {
+				width: 60px !important;
+				height: 60px !important;
+			}
+			
+			figure.foto-lampada {
+				float:right;
+				width: 140px !important;
+				height: 100px;
+				margin-top: -460px !important;
+				margin-right: 10px !important;
+			}
+			
+			figure.foto-lampada p {
+				margin-top: 0px !important;
+				margin-left: -15px !important;
+				width: 120px !important;
+				font-size: 12px !important;
+			}
+
+			
+			section#conteudos{
+				margin-top: 400px !important;
+
+			}
+} /****************************** FIM MEDEIA SCREAM 951 X 1120 ***************************************************/
+
+
+
+
+p#textoinicial{
+	font: 15px monospace;
+	font-family: 'verdana', normal, sans-serif;
+	width:100%;
+	text-align: justify;
+
+
+}
+
+div#conteudo-perfil{
+	margin: 5% 0% 0% 25%;
+	width:600px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+div#conteudo-perfil h2{
+	color:green;
+}
+h1 {
+	font-family: 'Mansalva', cursive, sans-serif;
+	font-size: 40px;
+	
+}
+#picone{
+	margin-left:35px;
+}
+
+hgroup#hgroup-h1{
+	position: aboslute;
+	margin:100px auto 10px 300px;
+	padding-top: 18px;
+	width:700px;
+}
+hgroup#hgroup-h1 h1{
+	color: #0000ff;
+	width:500px;
+
+}
+
+hgroup#hgroup-h1 h2{
+	color: green;
+	
+}
+
+figure.foto-legenda {
+	position: absolute;
+	margin-top:-400px;
+	border: 8px solid white;
+	box-shadow: 1px 1px 4px black;
+	width: 160px;
+	height:160px;
+}
+
+figure.foto-legenda img {
+	width: 160px;
+	height: 160px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:0px;
+}
+
+figure.foto-legenda figcaption {
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	background-color: rgba(0,0,0,.4);
+	color: white;
+	width: 160px;
+	height: 160px;
+	padding: 10px;
+	box-sizing: border-box;
+	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
+	-o-transition: background-color 1s;
+	-ms-transition: background-colo 1s;
+	transition: background-color 1s;
+}
+
+
+figure.foto-legenda:hover figcaption{
+	opacity: 1;
+}
+
+figure.foto-trabalhos {
+	position: relative;
+	width: 160px;
+	height: 160px;
+	margin: 0px 0px 50px 200px;
+	border: 8px solid white;
+	box-shadow: 1px 1px 4px black;
+}
+figure.foto-trabalhos img{
+	width: 160px;
+	height: 160px;
+
+}
+
+
+figure.foto-trabalhos h3{
+	font-family: 'Titillium Web', sans-serif;
+	position: absolute;
+	left: -20px;
+	top: 160px;
+	width:210px;
+
+}
+
+figure.foto-trabalhos p{
+	position: absolute;
+	left: -45px;
+	top: 190px;
+}
+
+
+figure.foto-lampada img {
+	width: 100px;
+	height: 100px;
+}
+
+figure.foto-lampada {
+	float:right;
+	width: 140px;
+	height: 100px;
+	margin-top: -420px;
+	margin-right: 40px;
+}
+
+figure.foto-lampada p {
+	margin-top: 20px;
+	margin-left:-10px;
+	width: 160px;
+}
+
+
+footer#rodape p {
+	text-align: center
+}
+
+section#conteudos{
+	margin-top: 800px;
+
+}
+
+
+
+
+

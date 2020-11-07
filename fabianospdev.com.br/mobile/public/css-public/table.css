@@ -1,0 +1,118 @@
+@media screen and (orientation: landscape) {
+}
+@media screen and (min-width:320px) and (max-width: 350px){
+			div#desenv{
+			height: 250%;
+			padding: 0% !important;
+			width: 98%;
+		 }
+			div#desenv-square{
+				width: 100%;
+				margin: 0%;
+				padding-bottom: 1%;
+			}
+			section#sectable {
+			margin: 0px !important;
+			}
+	
+}
+
+div#desenv-square{
+		width: 100%;
+		margin: 0% 5% 0% 5%;
+		padding-bottom: 1%;
+		background-color: #dee0fe;
+		border-radius: 15px;
+		box-shadow: 5px 8px 10px rgba(0,0,0,.9);
+}
+div#desenv-square:hover{
+		box-shadow: 5px 8px 10px rgba(0,0,0,.9),inset 0 0 .5em rgba(25,25,112);
+}
+
+section#sectable {
+	border: 1px solid #606060;
+	border-spacing: 0px;
+	margin: 0px 1% 0px 1%;
+	height: auto;
+	width: 95%;
+}
+
+
+table#tableindex {
+	border: 1px solid #606060;
+	border-spacing: 0px;
+	margin: 0px auto 10px auto; 
+	width: 100px !important;
+	height: 220px;
+	border-radius: 8px;
+	font-size: 0.9em;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+
+table#tableindex td:hover { 
+	background-color: yellow;
+	color:red;
+    -webkit-transform: scale(.95);
+    -moz-transition: scale(.95);
+    -o-transition: scale(.95);
+    transition: scale(1.05);
+    -ms-transform: scale(.95);
+    transform: scale(.95);
+
+}
+
+header#texto-esq span{
+	display: block;
+	float: right;
+	color: #000000;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+header#texto-esq p {
+		color: #000000;
+		padding-bottom: -15px;
+		text-align: none;
+    text-indent: 0px;
+    margin-right: 0px;
+    font-size: 1.3em;
+}
+
+table#tableindex td { 
+	border: 1px solid #606060;
+	padding: 2px;
+	text-align: center;
+	vertical-align: middle;
+  background-color: #d6cbcb;
+}
+
+.colordest {
+	background-color: #beadad;
+	color: #1d04c2;
+	font-weight: bold;
+}
+
+
+hgroup.cab{
+	width:98%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+hgroup.cab h2 {
+	padding: 8px;
+	font-size: 20px;
+	color: #000000;
+  text-align: center;
+}
+
+hgroup.cab h1 {
+	font-family: 'Mansalva', cursive, sans-serif;
+	font-size: 2.2em;
+	margin-bottom: -10px;
+	margin-top: -10px !important;
+	text-align: center;
+	padding-top: 30px;
+	color: #ff0000;
+}
+

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+div#webdiv{
+	margin: 1% !important;
+	padding: 1% !important;
+	width: 100%;
+	height: 450px;
+}
+
+
+div#img-celula{
+	background: url('../../../lib/images/eee5f03-200x144.bmp') no-repeat;
+	background-position: 100% 100%;
+	background-size: 200px 200px;
+	width: 200px;
+	height:200px;
+		margin: 3% 20% 10% 20%;
+}
+
+div#img-celula img{
+	width:100%;
+	height:100%;
+	margin: 10% 20% 10% 20%;
+}
+
+div#webdiv-1{
+	width: 100%;
+	float:rigth;
+}
+
+
+div#webdiv-1 > h1{
+	color: red;
+	padding: 1% 2% 6% 0%;
+}
+
+div#webdiv-2{
+	display: block;
+	width: 100%;
+	padding: 1% 2% 2% 0%;
+	height: 100px !important;
+}
+
+div#webdiv-2 p{
+	text-align: justify;	
+	text-indent: 0px;
+}
+

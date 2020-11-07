@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+.navegacao {
+  margin-top:50px !important;
+  padding-top: 6px;
+  margin-bottom:0px;
+
+}
+.navegacao p{
+  font-size: 1.3em !important;
+  margin-left:50px !important;
+  width:300px !important;
+}
+			
+div#allcont{
+		background-color: #8080ff;
+		width: 100%;
+		height: 800px;;
+}
+section#conteudo{
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 100px;
+	padding-top: 0px;
+
+}
+
+section#conteudo p span{
+	display: block;
+	float: left;
+	margin: 30px 10px 0 10px;
+	background-color: #ffff80;
+	padding: 10px 10px 10px 10px;
+	text-indent: 0px;
+	box-shadow: 4px 4px 3px rgba(0,0,0,.3);
+}
+
+div#video-android-app{
+	height: 250px;
+	width: 400px;
+	border-bottom:1px #606060 dashed;
+}
+
+div#div-left{
+	margin-top:30px;
+	height: auto;
+	width: 60%;
+	float: left;
+	margin: 0% 25% 0% 25%;
+}
+
+
+img#ic-chegada {
+	float:left;
+	width: 32%;
+	height: 40%;
+	margin: 60px 0px 100px 80px;
+	box-shadow: 2px 2px 10px rgba(0,0,0,.5);
+}
+
+p#espec {
+	float:left;
+	font-size: 1.4em;
+	margin-top: 100px;
+	text-indent: 0px;
+	color: #ffffff;
+}
+
+

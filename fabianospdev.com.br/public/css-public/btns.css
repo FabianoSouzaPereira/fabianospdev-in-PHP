@@ -1,0 +1,60 @@
+.btn-voltar {
+	padding: 10px 16px;
+	margin-left:5%;
+	font-size: 15px;
+	line-height: 0.6666666;
+	border-radius: 6px;	
+	color: #fff;
+	background-color:#0080c0;
+}
+.btn-voltar:hover {
+	box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+	border: 1px solid #f4511e;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.btn-go {
+	font-size: 1.1em !important;
+	font-weight: bold;
+	line-height: 1.42857143;
+	border-radius: 6px;	
+	color: #0000d2;
+  font-family: OpenSans-Bold;
+	background-color:#31b80a;
+	position: absolute;
+	bottom: 20px;
+	margin: 0% 40% 10px 30% !important;
+	padding: 10% 2%;
+	text-decoration: none;
+	width: 30% !important;
+}
+.btn-go:hover {
+	box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+	border: 1px solid #00ffff;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.btnM {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	width: auto;
+}

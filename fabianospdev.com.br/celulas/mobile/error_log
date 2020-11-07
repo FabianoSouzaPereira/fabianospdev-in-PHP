@@ -1,0 +1,124 @@
+[02-Mar-2020 13:09:00 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function rollBack() on null in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/dao/Login.php:105
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/loginView.php(21): mobile\modulos\dao\Login->getLogin('teste1@teste.co...', '1')
+#1 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/dao/Login.php on line 105
+[02-Mar-2020 13:09:38 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function rollBack() on null in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/dao/Login.php:105
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/loginView.php(21): mobile\modulos\dao\Login->getLogin('teste1@teste.co...', '1')
+#1 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/dao/Login.php on line 105
+[02-Mar-2020 13:12:26 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function rollBack() on null in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/dao/Login.php:105
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/loginView.php(21): mobile\modulos\dao\Login->getLogin('teste1@teste.co...', '1')
+#1 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/dao/Login.php on line 105
+[02-Mar-2020 13:14:59 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function rollBack() on null in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/dao/Login.php:105
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/loginView.php(21): mobile\modulos\dao\Login->getLogin('teste1@teste.co...', '1234')
+#1 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/dao/Login.php on line 105
+[02-Mar-2020 13:15:08 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function rollBack() on null in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/dao/Login.php:105
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/loginView.php(21): mobile\modulos\dao\Login->getLogin('teste1@teste.co...', '1')
+#1 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/dao/Login.php on line 105
+[02-Mar-2020 16:44:36 America/Sao_Paulo] PHP Warning:  A non-numeric value encountered in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/site/view/relatorioUpdateView.php on line 41
+[02-Mar-2020 16:44:36 America/Sao_Paulo] PHP Notice:  A non well formed numeric value encountered in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/site/view/relatorioUpdateView.php on line 41
+[03-Mar-2020 15:22:17 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method mobile\modulos\Igreja::adminRead() in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/loginView.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/loginView.php on line 56
+[03-Mar-2020 22:23:02 America/Sao_Paulo] PHP Notice:  Undefined variable: usuId in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/Igreja.php on line 576
+[03-Mar-2020 22:23:07 America/Sao_Paulo] PHP Notice:  Undefined variable: usuId in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/Igreja.php on line 576
+[03-Mar-2020 22:23:41 America/Sao_Paulo] PHP Notice:  Undefined variable: usuId in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/Igreja.php on line 576
+[03-Mar-2020 22:23:50 America/Sao_Paulo] PHP Notice:  Undefined variable: usuId in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/Igreja.php on line 576
+[03-Mar-2020 22:24:11 America/Sao_Paulo] PHP Notice:  Undefined variable: usuId in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/Igreja.php on line 576
+[03-Mar-2020 22:28:14 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method mobile\modulos\Igreja::adminRead() in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/loginView.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/loginView.php on line 56
+[03-Mar-2020 22:29:14 America/Sao_Paulo] PHP Notice:  Undefined variable: usuId in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/Igreja.php on line 576
+[04-Mar-2020 00:48:40 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'application\functions\Validador' not found in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/Igreja.php:1060
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/site/view/churchUpdateView.php(79): mobile\modulos\Igreja->setData('19/02/2020')
+#1 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/indexView.php(52): include('/home/u56401676...')
+#2 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/index.php(42): include_once('/home/u56401676...')
+#3 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/Igreja.php on line 1060
+[04-Mar-2020 00:51:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'application\functions\Validador' not found in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/Igreja.php:1060
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/site/view/churchUpdateView.php(79): mobile\modulos\Igreja->setData('19/02/2020')
+#1 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/indexView.php(52): include('/home/u56401676...')
+#2 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/index.php(42): include_once('/home/u56401676...')
+#3 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/Igreja.php on line 1060
+[04-Mar-2020 00:51:33 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'application\functions\Validador' not found in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/Igreja.php:1060
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/site/view/churchUpdateView.php(79): mobile\modulos\Igreja->setData('19/02/2020')
+#1 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/indexView.php(52): include('/home/u56401676...')
+#2 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/index.php(42): include_once('/home/u56401676...')
+#3 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/Igreja.php on line 1060
+[04-Mar-2020 00:51:47 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'application\functions\Validador' not found in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/Igreja.php:1060
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/site/view/churchUpdateView.php(79): mobile\modulos\Igreja->setData('19/02/2020')
+#1 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/indexView.php(52): include('/home/u56401676...')
+#2 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/index.php(42): include_once('/home/u56401676...')
+#3 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/Igreja.php on line 1060
+[04-Mar-2020 00:52:39 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'application\functions\Validador' not found in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/Igreja.php:1060
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/site/view/churchUpdateView.php(79): mobile\modulos\Igreja->setData('19/02/2020')
+#1 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/indexView.php(52): include('/home/u56401676...')
+#2 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/index.php(42): include_once('/home/u56401676...')
+#3 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/Igreja.php on line 1060
+[04-Mar-2020 00:53:38 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'application\functions\Validador' not found in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/Igreja.php:1060
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/site/view/churchUpdateView.php(79): mobile\modulos\Igreja->setData('19/02/2020')
+#1 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/indexView.php(52): include('/home/u56401676...')
+#2 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/index.php(42): include_once('/home/u56401676...')
+#3 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/Igreja.php on line 1060
+[04-Mar-2020 00:54:30 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'application\functions\Validador' not found in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/Igreja.php:1060
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/site/view/churchUpdateView.php(79): mobile\modulos\Igreja->setData('19/02/2020')
+#1 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/indexView.php(52): include('/home/u56401676...')
+#2 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/index.php(42): include_once('/home/u56401676...')
+#3 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/Igreja.php on line 1060
+[04-Mar-2020 00:56:38 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'application\functions\Validador' not found in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/Igreja.php:1060
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/site/view/churchUpdateView.php(79): mobile\modulos\Igreja->setData('19/02/2020')
+#1 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/indexView.php(52): include('/home/u56401676...')
+#2 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/index.php(42): include_once('/home/u56401676...')
+#3 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/Igreja.php on line 1060
+[04-Mar-2020 00:56:56 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'application\functions\Validador' not found in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/Igreja.php:1060
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/site/view/churchUpdateView.php(79): mobile\modulos\Igreja->setData('19/02/2020')
+#1 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/indexView.php(52): include('/home/u56401676...')
+#2 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/index.php(42): include_once('/home/u56401676...')
+#3 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/Igreja.php on line 1060
+[04-Mar-2020 12:18:03 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method mobile\modulos\Igreja::adminRead() in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/loginView.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/loginView.php on line 56
+[15-Mar-2020 13:20:56 America/Sao_Paulo] PHP Notice:  Undefined variable: dados in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/modelosRelatorios/Estatisticas.php on line 262
+[16-Apr-2020 07:22:37 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function rollBack() on null in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/dao/Login.php:105
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/loginView.php(21): mobile\modulos\dao\Login->getLogin('luiz@gmail.com', 'luiz2020')
+#1 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/dao/Login.php on line 105
+[16-Apr-2020 07:22:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function rollBack() on null in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/dao/Login.php:105
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/loginView.php(21): mobile\modulos\dao\Login->getLogin('luiz@gmail.com', 'luiz2020')
+#1 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/dao/Login.php on line 105
+[16-Apr-2020 07:23:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function rollBack() on null in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/dao/Login.php:105
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/loginView.php(21): mobile\modulos\dao\Login->getLogin('luiz@gmail.com', 'luiz2020')
+#1 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/mobile/modulos/dao/Login.php on line 105

@@ -1,0 +1,90 @@
+div#desenv-square{
+		width: 70%;
+		height: 650px;
+		margin: 100px 15% 0px 15%;
+		padding:-200px;
+		background-color: #dee0fe;
+		border-radius: 15px;
+}
+
+section#sectable {
+	border: 1px solid #606060;
+	border-spacing: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+}
+
+
+table#tableindex {
+	border: 1px solid #606060;
+	border-spacing: 0px;
+	margin-left: 2%;
+	margin-right: 1%;
+	margin-bottom: 10px;
+	margin-top: -10px;
+	width: 95%;
+	height: 330px;
+	border-radius: 8px;
+	font-size: 1.4em;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+
+table#tableindex td:hover { 
+	background-color: yellow;
+	color:red;
+    -webkit-transform: scale(.95);
+    -moz-transition: scale(.95);
+    -o-transition: scale(.95);
+    transition: scale(1.05);
+    -ms-transform: scale(.95);
+    transform: scale(.95);
+
+}
+
+header#texto-esq span{
+	display: block;
+	float: right;
+	color: #000000;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+header#texto-esq p {
+		color: #000000;
+		padding-bottom: -15px;
+		text-align: none;
+    text-indent: 0px;
+    margin-right: 0px;
+    font-size: 1.3em;
+}
+
+table#tableindex td { 
+	border: 1px solid #606060;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+  background-color: #d6cbcb;
+}
+
+.colordest {
+	background-color: #beadad;
+	color: #1d04c2;
+	font-weight: bold;
+}
+
+hgroup.cab h2 {
+	padding: 8px;
+	font-size: 20px;
+	color: #000000;
+  text-align: center;
+}
+
+hgroup.cab h1 {
+	font-family: 'Mansalva', cursive, sans-serif;
+	font-size: 40px;
+	margin-bottom: -10px;
+	margin-top: -10px !important;
+	text-align: center;
+}
+

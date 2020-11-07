@@ -1,0 +1,1025 @@
+@charset "UTF-8";
+
+
+.layoutPadrao{
+	width: 95%;
+	background-color:#ffffff;
+	margin: 10px auto 150px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+div#relatorio label{
+	font-size: 15px;
+}
+
+.modal-footer {
+	height: 10%;	
+}
+
+
+div#relatorio input:hover{
+	box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+	border: 1px solid #f4511e;
+	-webkit-transform: scale(1.1);
+}
+.btn-lista{
+	  display: inline-block;
+    padding: 2px 8px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+}
+.btn-lista:hover{
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, .2);
+	border: 1px solid #f4511e;
+	-webkit-transform: scale(1.1);
+}
+
+.btn-apaga {
+	padding: 8px 14px;
+	font-size: 18px;
+	line-height: 0.6666666;
+	border-radius: 6px;
+	color:white;
+	background-color:blue;
+	margin-top:0px;
+}
+/*posicao btns voltar - apagar */
+.navegacao {
+		margin:0% 2% 0% 2%;	
+		width: 95%;
+		margin-top:-50px;
+}
+.btn-apaga:hover{
+	box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+	border: 1px solid #f4511e;
+	-webkit-transform: scale(1.1);
+}
+
+.btn-voltar {
+	padding: 8px 14px;
+	font-size: 15px;
+	line-height: 0.6666666;
+	border-radius: 6px;	
+	background-color:blue;
+}
+.btn-voltar:hover {
+	box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+	border: 1px solid #f4511e;
+	-webkit-transform: scale(1.1);
+}
+
+.btn-novo {
+	padding: 10px 16px;
+	font-size: 10px;
+	line-height: 0.6666666;
+	border-radius: 6px;	
+	background-color:blue;
+}
+.btn-novo:hover {
+	box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+	border: 1px solid #f4511e;
+	-webkit-transform: scale(1.1);
+}
+
+.btn-associa {
+	padding: 10px 16px;
+	font-size: 10px;
+	line-height: 0.6666666;
+	border-radius: 6px;	
+	background-color:blue;
+}
+
+.btn-associa:hover {
+	box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+	border: 1px solid #f4511e;
+	-webkit-transform: scale(1.1);
+}
+
+#aviso{
+	display:inline-block;
+	width: 50%; 
+	font-family:cursive;
+	font-size:7px;
+	font-style:oblique;
+	color:green;
+}
+
+.hidden{
+	display: none;
+}
+.unhidden{
+	display: inline-block;
+}
+
+select[readonly]{
+  background: #eee; /*Simular campo inativo - Sugestão @GabrielRodrigues*/
+  pointer-events: none;
+  touch-action: none;
+}
+
+.colorir{
+	background-color:#0000ff;
+}
+
+.sombra-efe:hover{
+	box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+	border: 1px solid #f4511e;
+	-webkit-transform: scale(1.02);
+}
+.tela{
+	margin:0px auto;
+  padding:2%; 
+}
+.tela{
+	height: auto;
+  width: 100%;
+	background-size:auto;
+	overflow: hidden;
+	z-index: -110;
+}
+
+
+
+
+		/*************************** INICIO MEDIA SCREENS ********************************/
+	
+	@media screen and (min-width: 250px) and (max-width: 600px) and (orientation: portrait){
+	
+	div#face-begin{
+		width:100% !important;
+	  margin: 100px auto 180px auto;
+	  box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	  padding: 50px 50px 0px 50px;
+	  background-size: auto;
+	}
+	
+	body{
+		font-size: 10px;
+		margin-top:0px;
+		margin-bottom:100px;
+	}
+	
+	
+	
+	div#conteudo-principal{
+		margin-top:-50px !important;
+	}
+	div#interface{
+		margin: 10px;
+		width:90% !important;
+	}
+	a#titulo-menuTop{
+		font-size:9px !important;
+		margin-left:50px;
+	}
+	div#myNavbar li{
+		font-size: 10px !important;
+	}
+	
+
+	
+	section#begin-section{
+	  width:100%;
+    padding:2% 2% 50% 2%;
+	  margin: 0px auto;
+	  background-color: #ffffff;
+	}
+	
+	h1#hgroup-title{
+		font-family: Montserrat;
+		color:green;
+		font-size:18px;
+		margin-top:130px;
+		margin-left:10px;
+		
+	}
+	
+	h4{
+	  font-size: 9px;
+	  margin-left:10px;
+	  font-family:Montserrat;
+		color:blue;
+	}
+	
+	.accordion {
+	  padding: 18px;
+	  width: 100% !important;
+	  margin:0px !important;
+	  text-align: left;
+		font-size: 12px; 
+	}
+	div.panel1 {
+	  padding: 0 18px;
+	  width: 105% !important;
+	  margin-left: 0px; 
+	  color:blue;
+	  font-size:7px;
+	}
+
+	.accordion:after {
+	  content: '\02795'; /* Unicode character for "plus" sign (+) */
+	  font-size: 6px !important;
+	  float: left !important;
+	  margin-left: 0px !important;
+	}
+	
+	.active:after {
+	  content: "\2796"; /* Unicode character for "minus" sign (-) */
+	}
+	
+	/** Animated Accordion (Slide Down) */
+	.panel1 {
+	 	  padding: 0 18px;
+		  max-height: 0;
+		  margin-left:-12px !important;
+			width: 100% !important;
+			
+	}
+
+	div#grupo-accordion::after{
+	 font-size: 9px;
+	 width:380px;
+	 margin-left:-40px !important;
+	 src: url(../paragrafo_begin.html);
+		
+	}
+	
+	
+	.formato{
+		margin-top: 110px;
+	
+	}
+
+	.navegacao{
+		margin-top:0px;
+	}
+
+.panel-heading {
+	color: #fff !important;
+	background-color: #448004 !important;
+	padding: 5px 15px 2px 15px;
+	margin:0px 0px 5px 0px;
+	border-bottom: 2px solid #0c0101 !important;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	
+}
+
+.panel-heading h1{
+	font-size: 1.22em !important;
+
+}
+div panel-body{
+	margin-top:25px;
+	background-color:blue;
+}
+
+.listagem {
+	width:100%;
+	font-size:12px;
+}
+.listagem tbody{
+	margin-top:5px;
+	font-size:12px;
+	width:100%;
+}
+.listagem tbody tr:hover td{ 
+	cursor: pointer;
+	
+	}
+	
+	table#tbCelulas tbody tr{ 
+		max-width:100% !important;  
+	}
+	
+	table#tbCelulas{
+	font-size:12px !important;
+	color:red !important;
+	}
+	
+	.table-responsive{ font-size:12px !important; }
+	
+	.bg-color-rosa{
+		background-color: #ebcde7;
+ 
+	}
+	body.bg-color-rosa{
+			height:auto !important;
+	}
+ 
+ 	p#aviso{
+ 		margin-left:5px;
+ 	}
+ 	
+	 div#fundosobre{
+	  height: auto  !important;
+	  width: 100%;
+		background-size:100%;
+		overflow: hidden;
+	
+	}
+	
+	div#sobre article#art{
+		margin: 80px 30px 0px 30px;
+		padding: 20px !important;
+		background-color: rgba(235,235,235,.8);
+		border: 2px solid;
+		font-weight: 900;
+		box-shadow: 0px 0px 18px #808040;
+		text-align:justify;
+	
+	} 
+	div#sobre article#art p{
+		opacity: 1.0 !important;
+		font-weight: 500;
+		color: black;
+	} 
+		div#sobre article#art h5{
+		opacity: 1.0 !important;
+		font-weight: 900;
+		color: black;
+		color:green;
+	} 
+	
+	div#sobre {
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+	}
+	
+	#relatorio{
+	height: auto;
+	width: 100%;
+  }
+
+}
+
+@media screen and (min-width: 250px) and (max-width: 600px) and (orientation: landscape){
+	
+	table#tbCelulas{
+	font-size:12px !important;
+	color:red !important;
+	}
+	.table-responsive{ font-size:12px !important; }
+	
+	div#conteudo-principal{
+		margin-top:0px !important;
+	}
+	
+	body{
+		font-size: 10px;
+	}
+
+	table#tbCelulas tbody tr{ 
+		max-width:100% ;  
+	}
+	
+	div#interface{
+		margin: 10px;
+		width:90% !important;
+	}
+	
+	.navegacao{
+		margin-top:40px;
+	}
+
+	a#titulo-menuTop{
+		font-size:9px !important;
+		margin-left:50px !important;
+	}
+	div#myNavbar tr li{
+		font-size: 5px !important;
+		max-width: 200px !important;
+		color:blue;
+	}
+	
+  form#login{
+		width: 80% !important;
+		margin: 10% auto !important;
+		border: 1px solid;
+		height: 40% !important;
+	}
+	
+	form#logout {
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 10%;
+		border: 1px solid;
+	}
+	
+	section#begin-section{
+	  width:100%;
+	  padding:2% 2% 20% 2%;
+	  margin: 0px auto;
+	  background-color: #ffffff;
+	}
+	
+	header#begin-header{
+	 margin: 50px 10px 0px 10px;
+	}
+	
+	h1#hgroup-title{
+		font-family: Montserrat;
+		color:green;
+		font-size:14px;
+		margin-top:10px;
+		margin-left:10px;
+		
+	}
+	
+	.panel-heading h1{
+	font-size: 1.58em !important;
+
+	}
+	h4{
+	  font-size: 9px;
+	  margin-left:10px;
+	  font-family:Montserrat;
+		color:blue;
+	}
+	
+	.accordion {
+	  padding: 18px;
+	  width: 100% !important;
+	  margin: 0px 0px 0px 0px !important;
+	  text-align: left;
+		font-size: 10px; 
+	}
+	div.panel1 {
+	  padding: 0 18px;
+	  width: 100% !important;
+	  margin: 0px 0px 0px 20px; 
+	  color:blue;
+	  font-size:8px;
+	}
+
+	.accordion:after {
+	  content: '\02795'; /* Unicode character for "plus" sign (+) */
+	  font-size: 8px !important;
+	  float: left !important;
+	  margin-left: 0px !important;
+	}
+	
+	.active:after {
+	  content: "\2796"; /* Unicode character for "minus" sign (-) */
+	}
+	
+	/** Animated Accordion (Slide Down) */
+	.panel1 {
+	 	  padding: 0 18px;
+		  max-height: 0;
+		  margin-left:-5px !important;
+			width: 280px !important;
+			
+	}
+
+	div#grupo-accordion::after{
+	 font-size: 8px;
+	 width:380px;
+	 src: url(../paragrafo_begin.html);
+		
+	}
+	
+	.formato{
+		margin-top: 50px;
+	}
+	
+	.panel panel-warning{
+	  margin-top:50px;
+	}
+	.panel-heading {
+		color: #fff !important;
+		background-color: #448004 !important;
+		margin:0px 0px 0px 0px;
+		padding: 5px 15px 2px 15px;
+		border-bottom: 2px solid #0c0101 !important;
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+	
+	}
+	
+	p#aviso{
+ 		margin-left:35px;
+ 	}
+ 	
+ 	#relatorio{
+	height: auto;
+	width: 100%;
+ }
+	
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 700px) and (orientation: portrait){
+
+	table#tbCelulas{
+	font-size:8px !important;
+	color:red !important;
+	}
+	.table-responsive{ font-size:2px !important; }
+	
+	div#conteudo-principal{
+		margin-top:0px !important;
+	}
+	
+	body{
+		font-size: 12px;
+	}
+
+	table#tbCelulas tbody tr{ 
+		max-width:100% ;  
+	}
+	
+	div#interface{
+		margin: 10px;
+		width:90% !important;
+	}
+	
+	.navegacao{
+		margin-top:140px !important;
+	}
+
+	a#titulo-menuTop{
+		font-size:9px !important;
+		margin-left:50px !important;
+	}
+	div#myNavbar tr li{
+		font-size: 5px !important;
+		max-width: 200px !important;
+		color:blue;
+	}
+	
+	
+	section#begin-section{
+	  width:100%;
+	  padding:2% 2% 20% 2%;
+	  margin: 0px auto;
+	  background-color: #ffffff;
+	}
+	
+	header#begin-header{
+	 margin: 50px 10px 0px 10px;
+	}
+	
+	h1#hgroup-title{
+		font-family: Montserrat;
+		color:green;
+		font-size:14px;
+		margin-top:10px;
+		margin-left:10px;
+		
+	}
+	
+	.panel-heading h1{
+	font-size: 1.58em !important;
+
+	}
+	h4{
+	  font-size: 9px;
+	  margin-left:10px;
+	  font-family:Montserrat;
+		color:blue;
+	}
+	
+	.accordion {
+	  padding: 18px;
+	  width: 100% !important;
+	  margin: 0px 0px 0px 0px !important;
+	  text-align: left;
+		font-size: 10px; 
+	}
+	div.panel1 {
+	  padding: 0 18px;
+	  width: 100% !important;
+	  margin: 0px 0px 0px 20px; 
+	  color:blue;
+	  font-size:8px;
+	}
+
+	.accordion:after {
+	  content: '\02795'; /* Unicode character for "plus" sign (+) */
+	  font-size: 8px !important;
+	  float: left !important;
+	  margin-left: 0px !important;
+	}
+	
+	.active:after {
+	  content: "\2796"; /* Unicode character for "minus" sign (-) */
+	}
+	
+	/** Animated Accordion (Slide Down) */
+	.panel1 {
+	 	  padding: 0 18px;
+		  max-height: 0;
+		  margin-left:-5px !important;
+			width: 280px !important;
+			
+	}
+
+	div#grupo-accordion::after{
+	 font-size: 8px;
+	 width:380px;
+	 src: url(../paragrafo_begin.html);
+		
+	}
+	
+	.panel panel-warning{
+	  margin-top:50px;
+	}
+	.panel-heading {
+		color: #fff !important;
+		background-color: #448004 !important;
+		margin:50px 0px 0px 0px;
+		padding: 5px 15px 2px 15px;
+		border-bottom: 2px solid #0c0101 !important;
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+	
+	}
+
+	p#aviso{
+ 		margin-left:35px;
+ 	}
+	
+}
+
+@media screen and (min-width: 601px) and (max-width: 700px) and (orientation: landscape){
+	
+	table#tbCelulas{
+	font-size:2px !important;
+	color:red !important;
+	}
+	.table-responsive{ font-size:2px !important; }
+	div#conteudo-principal{
+		margin-top:0px !important;
+	}
+
+	table#tbCelulas tbody tr{ max-width:340px !important;  }
+	
+	div#interface{
+		margin: 10px;
+		width:90% !important;
+	}
+	a#titulo-menuTop{
+		font-size:9px !important;
+		margin-left:50px !important;
+	}
+	div#myNavbar tr li{
+		font-size: 5px !important;
+		max-width: 200px !important;
+		color:blue;
+	}
+	
+	
+	section#begin-section{
+	  width:100%;
+	  padding:2% 2% 20% 2%;
+	  margin: 0px auto;
+	  background-color: #ffffff;
+	}
+	
+	header#begin-header{
+	 margin: 50px 10px 0px 10px;
+	}
+	
+	h1#hgroup-title{
+		font-family: Montserrat;
+		color:green;
+		font-size:18px;
+		margin-top:10px;
+		margin-left:10px;
+		
+	}
+	
+	h4{
+	  font-size: 9px;
+	  margin-left:10px;
+	  font-family:Montserrat;
+		color:blue;
+	}
+	
+	.accordion {
+	  padding: 18px;
+	  width: 100% !important;
+	  margin: 0px 0px 0px 0px !important;
+	  text-align: left;
+		font-size: 10px; 
+	}
+	div.panel1 {
+	  padding: 0 18px;
+	  width: 100% !important;
+	  margin: 0px 0px 0px 20px; 
+	  color:blue;
+	  font-size:8px;
+	}
+
+	.accordion:after {
+	  content: '\02795'; /* Unicode character for "plus" sign (+) */
+	  font-size: 4px !important;
+	  float: left !important;
+	  margin-left: 0px !important;
+	}
+	
+	.active:after {
+	  content: "\2796"; /* Unicode character for "minus" sign (-) */
+	}
+	
+	/** Animated Accordion (Slide Down) */
+	.panel1 {
+	 	  padding: 0 18px;
+		  max-height: 0;
+		  margin-left:-5px !important;
+			width: 280px !important;
+			
+	}
+
+	div#grupo-accordion::after{
+	 font-size: 2px;
+	 width:380px;
+	 src: url(../paragrafo_begin.html);
+		
+	}
+		.formato{
+		 margin-top:50px !important;
+	}
+	
+		.panel panel-warning{
+	  margin-top:50px;
+	}
+	.panel-heading {
+		color: #fff !important;
+		background-color: #448004 !important;
+		margin:0px 0px 0px 0px;
+		padding: 5px 15px 2px 15px;
+		border-bottom: 2px solid #0c0101 !important;
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+	
+	}
+}
+
+
+@media screen and (max-width: 800px) and (min-width: 701px) and (orientation: portrait){
+		
+		.layoutPadrao{
+				width: 95%;
+		
+			}
+		form#login {
+		width: 80%;
+		margin: 10% auto;	
+		border: 1px solid;
+	}
+	
+	form#logout {
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 10%;
+		border: 1px solid;
+	}
+			.tela{
+			  	background-repeat: repeat !important;
+			}
+			
+				nav#menu-top a#titulo-menuTop{
+				font-size: 10px !important;
+				margin-left: 50px !important;
+				
+			}
+			nav#menu-top a#voltar{
+			 width:100px !important;
+		
+			}
+			.navegacao {
+		
+			  margin-top:0px !important;
+		
+			}
+				.navegacao p{
+			  font-size: 10px !important;
+			  margin-left:50px !important;
+			  width:300px !important;
+			}
+		
+		/* 6 botoes da tela */	
+		.grid-template-columns {
+			grid-template-columns: 200px 200px 200px;
+		}
+		.grid-template-rows {
+			grid-template-rows: 150px;
+		}
+		
+		.item-1{
+			margin: 100px 50px 0px 150px;
+		}
+		.item-2{
+			margin: 100px 50px 0px 150px;
+		}
+		.item-3{
+			margin: 100px 50px 0px 150px;
+		}
+		.item-4{
+			margin: 100px 50px 0px 150px;
+		}
+		.item-5{
+			margin: 100px 50px 0px 150px;
+		}
+		.item-6{
+			margin: 100px 50px 0px 150px;
+		}
+		
+		.relatorio{
+			width:180px;
+			height:80px;
+			font-size: 15px;
+		}
+		
+			div#relatorio{
+			 height: 950px !important;
+			}
+			
+			div#relatorio .grupoRel{
+			 display:inline-block;
+			 width: 95%;
+			  background-color: yellow !important;
+			}
+			div#relatorio .grupoRel .form-row{
+			 display:inline-block !important;
+			 width: 70% !important;
+			}
+			div#relatorio .grupoRel label{
+			 font-size: 14px;
+			 
+			}
+			div#relatorio div#radio-inputs{
+			margin-top: 600px;
+			
+			}
+			div#relatorio div#radio-inputs div label{
+			font-size: 14px;
+			
+			}
+			
+			div#fundosobre {
+				 background-size: auto !important;
+			}
+	.formato{
+		 margin-top:50px !important;
+	}		
+	.panel panel-warning{
+	  margin-top:50px;
+	}
+	.panel-heading {
+		color: #fff !important;
+		background-color: #448004 !important;
+		margin:0px 0px 0px 0px;
+		padding: 5px 15px 2px 15px;
+		border-bottom: 2px solid #0c0101 !important;
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+	
+	}
+		
+}
+
+@media screen and (max-width: 800px) and (min-width: 701px) and (orientation: landscape){
+ 		
+		.layoutPadrao{
+				width: 95%;
+		
+			}
+		form#login {
+		width: 80%;
+		margin: 10% auto;	
+		border: 1px solid;
+	  }
+	
+		form#logout {
+			width: 80%;
+			margin: 0 auto;
+			margin-top: 10%;
+			border: 1px solid;
+		}
+		.tela{
+		  	background-repeat: repeat !important;
+		}
+		
+			nav#menu-top a#titulo-menuTop{
+			font-size: 10px !important;
+			margin-left: 50px !important;
+				
+			}
+			nav#menu-top a#voltar{
+			 width:100px !important;
+		
+			}
+			.navegacao {
+		
+			  margin-top:0px !important;
+		
+			}
+				.navegacao p{
+			  font-size: 10px !important;
+			  margin-left:50px !important;
+			  width:300px !important;
+			}
+		
+		/* 6 botoes da tela */	
+		.grid-template-columns {
+			grid-template-columns: 200px 200px 200px;
+		}
+		.grid-template-rows {
+			grid-template-rows: 150px;
+		}
+		
+		.item-1{
+			margin: 100px 50px 0px 150px;
+		}
+		.item-2{
+			margin: 100px 50px 0px 150px;
+		}
+		.item-3{
+			margin: 100px 50px 0px 150px;
+		}
+		.item-4{
+			margin: 100px 50px 0px 150px;
+		}
+		.item-5{
+			margin: 100px 50px 0px 150px;
+		}
+		.item-6{
+			margin: 100px 50px 0px 150px;
+		}
+		
+		.relatorio{
+			width:180px;
+			height:80px;
+			font-size: 15px;
+		}
+		
+			div#relatorio{
+			 height: 950px !important;
+			}
+			
+			div#relatorio .grupoRel{
+			 display:inline-block;
+			 width: 95%;
+			  background-color: yellow !important;
+			}
+			div#relatorio .grupoRel .form-row{
+			 display:inline-block !important;
+			 width: 70% !important;
+			}
+			div#relatorio .grupoRel label{
+			 font-size: 14px;
+			 
+			}
+			div#relatorio div#radio-inputs{
+			margin-top: 600px;
+			
+			}
+			div#relatorio div#radio-inputs div label{
+			font-size: 14px;
+			
+			}
+			
+			div#fundosobre {
+				 background-size: auto !important;
+			}
+	.formato{
+		 margin-top:50px !important;
+	}		
+	.panel panel-warning{
+	  margin-top:50px;
+	}
+	.panel-heading {
+		color: #fff !important;
+		background-color: #448004 !important;
+		margin:0px 0px 0px 0px;
+		padding: 5px 15px 2px 15px;
+		border-bottom: 2px solid #0c0101 !important;
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+	
+	}
+}
+
+
+       /******************  FIM MEDIAS SCREENS  *******************/
+

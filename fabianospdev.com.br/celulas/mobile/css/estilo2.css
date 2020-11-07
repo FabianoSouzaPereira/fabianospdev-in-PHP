@@ -1,0 +1,45 @@
+@charset "UTF-8";
+#menu{
+	box-shadow: 3px 3px 3px #E9E9E9;
+	padding: 1%;
+	background: #FCFCFC;
+}
+
+div.jumbotron ul :hover{
+	display: block;
+	cursor: pointer;
+	list-style: nome;
+	text-transform: uppercase;
+	position: relative;
+	top: 0px;
+	left: 50px;
+}
+
+#rodape{
+	padding: 1%;
+	text-align: center;
+}
+
+.jumbotron{
+	margin:2%;
+	padding:5%;
+}
+
+
+#id{float: left; width: 0%;height:0px; margin-left: 0px;padding-top: 0px;}
+
+.sidebyside{ display: table; width: 100%; }
+
+.divleft{float: left; width: 48%;height:60px; margin-left:10px;	padding-top: 15px;}
+
+.divleft .sideleft{	width: 100%;height:30px;}
+
+.divright{margin-left: 50%;	width: 48%;	height:60px; padding-top: 20px;}
+
+.divright .sideright{ width: 100%;height:30px; }
+
+.submitting{float: left; width: 100%;height:60px; margin-top:10px;}
+
+.submitting .left{float: left; margin-left:27%; margin-top:10px; width:20%;height:40px;}
+
+.submitting .right{	margin-left: 1%; margin-top:10px;width:20%; height:40px;}

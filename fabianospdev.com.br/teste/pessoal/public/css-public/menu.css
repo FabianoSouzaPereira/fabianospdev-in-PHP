@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+
+nav#menu {
+	display: block;
+}
+
+nav#menu h1 {
+	display: none;
+}
+
+nav#menu ul {
+	cursor: pointer;
+	list-style: nome;
+	text-transform: uppercase;
+	position: relative;
+	top: 0px;
+	left: 50px;
+}
+
+nav#menu ul:hover{
+	cursor: pointer;
+}
+
+nav#menu #ulCateg{
+	display: none;
+	left: -40px;
+	width: 18px;
+
+}
+
+nav#menu #ulCateg:hover {
+	display: block; 
+	left: -40px;
+	top: 40px;
+	width: 18px;
+}
+
+nav#menu li#categ:hover  > #ulCateg {
+	display: block;
+	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
+	-o-transition: background-color 1s;
+	-ms-transition: background-colo 1s;
+	transition: background-color 1s;
+	
+} 
+
+nav#menu li {
+	display: inline-block;
+	background-color: #606060;
+	padding: 10px;
+	width: 100px;
+	text-align: center;
+}
+
+
+nav#menu li:hover {
+	cursor: pointer;
+	background-color: #dddddd;
+	transition: background-color 1s;
+	-webkit-transition: background-color 1s;
+	-moz-transition:  background-color 1s;
+	-o-transition: background-color 1s;
+	-ms-transition:  background-color 1s;	
+
+}
+
+nav#menu li:hover{
+    -webkit-transform: scale(1.05);
+    -moz-transition: scale(1.05);
+    -o-transition: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: scale(1.05);
+}
+
+nav#menu a {
+	color: white;
+	text-decoration: none;
+	text-align: right;
+	margin-left: 5px;
+}
+
+nav#menu a:hover {
+	color: #0080ff;
+	
+}
+
+
+
+div#menu-geral {
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	margin-top: -100px;
+	margin-left: -10px;
+	z-index: 7;
+	background-color: #804040;
+	box-shadow: 0px 0px 10px rgba(0,0,0,1);
+
+}

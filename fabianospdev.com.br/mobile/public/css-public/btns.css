@@ -1,0 +1,65 @@
+.btn-voltar {
+	padding: 10px 16px;
+	margin-left:5%;
+	font-size: 15px;
+	line-height: 0.6666666;
+	border-radius: 6px;	
+	color: #fff;
+	background-color:#0080c0;
+}
+.btn-voltar:hover {
+	box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+	border: 1px solid #f4511e;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.btn-go {
+	padding: 2% 2%;
+	font-size: .6em !important;
+	font-weight: bold;
+	line-height: 1.42857143;
+	border-radius: 6px;	
+	color: #0000d2;
+  font-family: OpenSans-Bold;
+	background-color:#31b80a;
+	margin: 30% 37% 0px 33% !important;
+	text-decoration: none;
+	width: 30% !important;
+}
+.btn-go:hover {
+	box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+	border: 1px solid #00ffff;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.btnM {
+	display: inline-block;
+	padding: 6px 12px;
+	margin: 20% 50% 0% 50%;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	touch-action: manipulation;
+	cursor: pointer;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	width: auto;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-ms-touch-action: manipulation;
+}
+
+@media screen and (orientation: landscape) {
+	.btnM {
+			margin: 10% 35% 0% 35%!important;
+			font-size: 1.2em;
+	}
+}
