@@ -1,0 +1,138 @@
+[02-Mar-2020 16:53:34 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 UPDATE command denied to user 'u564016761_root'@'localhost' for table 'usuarios' in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/application/modulos/Usuario.php:586
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/application/modulos/Usuario.php(586): PDOStatement->execute()
+#1 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userUpdateView.php(51): modulos\Usuario->pastorUpdate()
+#2 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/indexView.php(52): include('/home/u56401676...')
+#3 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/index.php(54): include_once('/home/u56401676...')
+#4 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/application/modulos/Usuario.php on line 586
+[02-Mar-2020 16:58:49 America/Sao_Paulo] PHP Warning:  include_once(../../Ajax_config.php): failed to open stream: No such file or directory in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/associausuario.php on line 9
+[02-Mar-2020 16:58:49 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../../Ajax_config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/associausuario.php on line 9
+[02-Mar-2020 16:58:49 America/Sao_Paulo] PHP Warning:  include_once(../../application/modulos/dao/Connection.php): failed to open stream: No such file or directory in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/associausuario.php on line 10
+[02-Mar-2020 16:58:49 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../../application/modulos/dao/Connection.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/associausuario.php on line 10
+[02-Mar-2020 16:58:58 America/Sao_Paulo] PHP Warning:  include_once(../../Ajax_config.php): failed to open stream: No such file or directory in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/associausuario.php on line 9
+[02-Mar-2020 16:58:58 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../../Ajax_config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/associausuario.php on line 9
+[02-Mar-2020 16:58:58 America/Sao_Paulo] PHP Warning:  include_once(../../application/modulos/dao/Connection.php): failed to open stream: No such file or directory in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/associausuario.php on line 10
+[02-Mar-2020 16:58:58 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../../application/modulos/dao/Connection.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/associausuario.php on line 10
+[02-Mar-2020 16:59:06 America/Sao_Paulo] PHP Warning:  include_once(../../Ajax_config.php): failed to open stream: No such file or directory in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/associausuario.php on line 9
+[02-Mar-2020 16:59:06 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../../Ajax_config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/associausuario.php on line 9
+[02-Mar-2020 16:59:06 America/Sao_Paulo] PHP Warning:  include_once(../../application/modulos/dao/Connection.php): failed to open stream: No such file or directory in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/associausuario.php on line 10
+[02-Mar-2020 16:59:06 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../../application/modulos/dao/Connection.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/associausuario.php on line 10
+[02-Mar-2020 21:33:19 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '$tipo' (T_VARIABLE) in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userUpdateView.php on line 154
+[02-Mar-2020 21:33:27 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '$tipo' (T_VARIABLE) in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userUpdateView.php on line 154
+[02-Mar-2020 21:33:31 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '$tipo' (T_VARIABLE) in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userDetailsView.php on line 94
+[02-Mar-2020 21:36:21 America/Sao_Paulo] PHP Warning:  A non-numeric value encountered in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/relatorioUpdateView.php on line 41
+[02-Mar-2020 21:36:21 America/Sao_Paulo] PHP Notice:  A non well formed numeric value encountered in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/relatorioUpdateView.php on line 41
+[02-Mar-2020 21:36:41 America/Sao_Paulo] PHP Warning:  A non-numeric value encountered in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/relatorioDetailsView.php on line 41
+[02-Mar-2020 21:36:41 America/Sao_Paulo] PHP Notice:  A non well formed numeric value encountered in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/relatorioDetailsView.php on line 41
+[02-Mar-2020 21:47:08 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/application/modulos/Usuario.php:514
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/application/modulos/Usuario.php(514): PDOStatement->execute()
+#1 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userCreateView.php(43): modulos\Usuario->pastorInsert()
+#2 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/indexView.php(52): include('/home/u56401676...')
+#3 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/index.php(54): include_once('/home/u56401676...')
+#4 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/application/modulos/Usuario.php on line 514
+[02-Mar-2020 21:53:21 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/application/modulos/Usuario.php:514
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/application/modulos/Usuario.php(514): PDOStatement->execute()
+#1 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userCreateView.php(43): modulos\Usuario->pastorInsert()
+#2 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/indexView.php(52): include('/home/u56401676...')
+#3 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/index.php(54): include_once('/home/u56401676...')
+#4 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/application/modulos/Usuario.php on line 514
+[02-Mar-2020 22:12:25 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/application/modulos/Usuario.php:469
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userCreateView.php(33): modulos\Usuario->pastorInsert()
+#1 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/indexView.php(52): include('/home/u56401676...')
+#2 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/index.php(54): include_once('/home/u56401676...')
+#3 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/application/modulos/Usuario.php on line 469
+[02-Mar-2020 22:14:42 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/application/modulos/Usuario.php:469
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userCreateView.php(33): modulos\Usuario->pastorInsert()
+#1 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/indexView.php(52): include('/home/u56401676...')
+#2 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/index.php(54): include_once('/home/u56401676...')
+#3 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/application/modulos/Usuario.php on line 469
+[02-Mar-2020 22:17:42 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function beginTransaction() on null in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/application/modulos/Usuario.php:469
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userCreateView.php(33): modulos\Usuario->pastorInsert()
+#1 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/indexView.php(52): include('/home/u56401676...')
+#2 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/index.php(54): include_once('/home/u56401676...')
+#3 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/application/modulos/Usuario.php on line 469
+[02-Mar-2020 22:18:20 America/Sao_Paulo] PHP Warning:  include_once(../application/modulos/Usuario.php): failed to open stream: No such file or directory in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userCreateView.php on line 7
+[02-Mar-2020 22:18:20 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../application/modulos/Usuario.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userCreateView.php on line 7
+[02-Mar-2020 22:18:20 America/Sao_Paulo] PHP Warning:  include_once(../application/functions/Validador.php): failed to open stream: No such file or directory in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userCreateView.php on line 8
+[02-Mar-2020 22:18:20 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../application/functions/Validador.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userCreateView.php on line 8
+[02-Mar-2020 22:18:20 America/Sao_Paulo] PHP Warning:  include_once(../js/functions.js): failed to open stream: No such file or directory in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userCreateView.php on line 9
+[02-Mar-2020 22:18:20 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../js/functions.js' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userCreateView.php on line 9
+[02-Mar-2020 22:18:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'modulos\Usuario' not found in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userCreateView.php:14
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/indexView.php(52): include()
+#1 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/index.php(54): include_once('/home/u56401676...')
+#2 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userCreateView.php on line 14
+[02-Mar-2020 22:18:27 America/Sao_Paulo] PHP Warning:  include_once(../application/modulos/Usuario.php): failed to open stream: No such file or directory in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userCreateView.php on line 7
+[02-Mar-2020 22:18:27 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../application/modulos/Usuario.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userCreateView.php on line 7
+[02-Mar-2020 22:18:27 America/Sao_Paulo] PHP Warning:  include_once(../application/functions/Validador.php): failed to open stream: No such file or directory in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userCreateView.php on line 8
+[02-Mar-2020 22:18:27 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../application/functions/Validador.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userCreateView.php on line 8
+[02-Mar-2020 22:18:27 America/Sao_Paulo] PHP Warning:  include_once(../js/functions.js): failed to open stream: No such file or directory in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userCreateView.php on line 9
+[02-Mar-2020 22:18:27 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../js/functions.js' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userCreateView.php on line 9
+[02-Mar-2020 22:18:27 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class 'modulos\Usuario' not found in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userCreateView.php:14
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/indexView.php(52): include()
+#1 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/index.php(54): include_once('/home/u56401676...')
+#2 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userCreateView.php on line 14
+[02-Mar-2020 22:19:49 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/application/modulos/Usuario.php:514
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/application/modulos/Usuario.php(514): PDOStatement->execute()
+#1 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userCreateView.php(52): modulos\Usuario->pastorInsert()
+#2 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/indexView.php(52): include('/home/u56401676...')
+#3 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/index.php(54): include_once('/home/u56401676...')
+#4 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/application/modulos/Usuario.php on line 514
+[02-Mar-2020 22:24:35 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/application/modulos/Usuario.php:514
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/application/modulos/Usuario.php(514): PDOStatement->execute()
+#1 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userCreateView.php(52): modulos\Usuario->pastorInsert()
+#2 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/indexView.php(52): include('/home/u56401676...')
+#3 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/index.php(54): include_once('/home/u56401676...')
+#4 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/application/modulos/Usuario.php on line 514
+[02-Mar-2020 22:24:46 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/application/modulos/Usuario.php:514
+Stack trace:
+#0 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/application/modulos/Usuario.php(514): PDOStatement->execute()
+#1 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/userCreateView.php(52): modulos\Usuario->pastorInsert()
+#2 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/indexView.php(52): include('/home/u56401676...')
+#3 /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/index.php(54): include_once('/home/u56401676...')
+#4 {main}
+  thrown in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/application/modulos/Usuario.php on line 514
+[02-Mar-2020 22:35:48 America/Sao_Paulo] PHP Notice:  Undefined index: igrejaNome in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/footer.php on line 45
+[02-Mar-2020 23:22:27 America/Sao_Paulo] PHP Warning:  include_once(../../Ajax_config.php): failed to open stream: No such file or directory in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/associausuario.php on line 9
+[02-Mar-2020 23:22:27 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../../Ajax_config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/associausuario.php on line 9
+[02-Mar-2020 23:22:27 America/Sao_Paulo] PHP Warning:  include_once(../../application/modulos/dao/Connection.php): failed to open stream: No such file or directory in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/associausuario.php on line 10
+[02-Mar-2020 23:22:27 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening '../../application/modulos/dao/Connection.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/associausuario.php on line 10
+[02-Mar-2020 23:23:41 America/Sao_Paulo] PHP Notice:  Undefined index: celula in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/relatorioA.php on line 25
+[02-Mar-2020 23:29:12 America/Sao_Paulo] PHP Warning:  A non-numeric value encountered in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/relatorioDetailsView.php on line 41
+[02-Mar-2020 23:29:12 America/Sao_Paulo] PHP Notice:  A non well formed numeric value encountered in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/relatorioDetailsView.php on line 41
+[02-Mar-2020 23:29:28 America/Sao_Paulo] PHP Warning:  A non-numeric value encountered in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/relatorioDetailsView.php on line 41
+[02-Mar-2020 23:29:28 America/Sao_Paulo] PHP Notice:  A non well formed numeric value encountered in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/relatorioDetailsView.php on line 41
+[02-Mar-2020 23:29:36 America/Sao_Paulo] PHP Warning:  A non-numeric value encountered in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/relatorioUpdateView.php on line 41
+[02-Mar-2020 23:29:36 America/Sao_Paulo] PHP Notice:  A non well formed numeric value encountered in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/relatorioUpdateView.php on line 41
+[02-Mar-2020 23:36:20 America/Sao_Paulo] PHP Warning:  A non-numeric value encountered in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/relatorioUpdateView.php on line 47
+[02-Mar-2020 23:36:20 America/Sao_Paulo] PHP Notice:  A non well formed numeric value encountered in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/relatorioUpdateView.php on line 47
+[02-Mar-2020 23:36:25 America/Sao_Paulo] PHP Warning:  A non-numeric value encountered in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/relatorioUpdateView.php on line 47
+[02-Mar-2020 23:36:25 America/Sao_Paulo] PHP Notice:  A non well formed numeric value encountered in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/relatorioUpdateView.php on line 47
+[02-Mar-2020 23:37:06 America/Sao_Paulo] PHP Warning:  A non-numeric value encountered in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/relatorioUpdateView.php on line 47
+[02-Mar-2020 23:37:06 America/Sao_Paulo] PHP Notice:  A non well formed numeric value encountered in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/relatorioUpdateView.php on line 47
+[02-Mar-2020 23:37:11 America/Sao_Paulo] PHP Warning:  A non-numeric value encountered in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/relatorioUpdateView.php on line 47
+[02-Mar-2020 23:37:11 America/Sao_Paulo] PHP Notice:  A non well formed numeric value encountered in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/relatorioUpdateView.php on line 47
+[04-Mar-2020 14:38:07 America/Sao_Paulo] PHP Notice:  Undefined index: igrejaNome in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/footer.php on line 45
+[04-Mar-2020 14:38:12 America/Sao_Paulo] PHP Notice:  Undefined index: igrejaNome in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/footer.php on line 45
+[15-Apr-2020 19:50:29 America/Sao_Paulo] PHP Warning:  A non-numeric value encountered in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/relatorioDetailsView.php on line 41
+[15-Apr-2020 19:50:29 America/Sao_Paulo] PHP Notice:  A non well formed numeric value encountered in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/relatorioDetailsView.php on line 41
+[15-Apr-2020 19:51:44 America/Sao_Paulo] PHP Warning:  A non-numeric value encountered in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/relatorioDetailsView.php on line 41
+[15-Apr-2020 19:51:44 America/Sao_Paulo] PHP Notice:  A non well formed numeric value encountered in /home/u564016761/domains/fabianospdev.com.br/public_html/celulas/site/view/relatorioDetailsView.php on line 41

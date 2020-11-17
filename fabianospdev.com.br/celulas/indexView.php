@@ -8,11 +8,11 @@ include_once 'init.php';
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=10,chrome=1" charset="utf-8">
 <title>Células</title>
-<!--<base href="https://celulas.fabianospdev.com.br/">-->
+<base href="http://celulas.com.br/">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-<!--<meta name="description" content="">-->
-<!--<meta name="keywords" content="Developer">-->
-<!--<meta name="author" content="Fabianospdev">-->
+<meta name="description" content="">
+<meta name="keywords" content="Developer">
+<meta name="author" content="Fabianospdev">
 <!-- Chamada do CSS -->
 <link rel="stylesheet" href="application/bootstrap/css/bootstrap.css">
 <link rel="stylesheet" href="css/buttoms.css">
@@ -23,7 +23,9 @@ include_once 'init.php';
 <link rel="stylesheet" href="css/relatorios.css">
 <link rel="stylesheet" href="css/estatisticas.css">
 <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
-<script src="application/bootstrap/js/jquery-1.12.4.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
         <!--  Plugin para mascara monetária -->
 <script src="application/bootstrap/js/bootstrap.min.js"></script>
 <script src="application/bootstrap/js/jquery.maskMoney.js"></script>
