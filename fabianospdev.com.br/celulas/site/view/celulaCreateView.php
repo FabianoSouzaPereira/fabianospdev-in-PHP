@@ -40,6 +40,11 @@ if(isset($_POST['celCelula'])){
     $_SESSION['celData']=$_POST['celData'];
     $_SESSION['celDia']=$_POST['celDia'];
     $_SESSION['celHora']=$_POST['horas'].':'.$_POST['minutos'];
+    $_SESSION['celEndereco']=$_POST['celEndereco'];
+    $_SESSION['celBairro']=$_POST['celBairro'];
+    $_SESSION['celCidade']=$_POST['celCidade'];
+    $_SESSION['celCep']=$_POST['celCep'];
+//     $_SESSION['celPais']=$_POST['celPais']; 
     $_SESSION['celIgreja']=$_POST['celIgreja'];
     $_SESSION['celStatus']='1';
     
@@ -53,6 +58,11 @@ if(isset($_POST['celCelula'])){
     $celin->setColaborador($_SESSION['celColaborador']);
     $celin->setData($_SESSION['celData']);
     $celin->setDia($_SESSION['celDia']);
+    $celin->setEndereco($_SESSION['celEndereco']);
+    $celin->setBairro($_SESSION['celBairro']);
+    $celin->setCidade($_SESSION['celCidade']);
+    $celin->setPais($_SESSION['celPais']);
+    $celin->setCep($_SESSION['celCep']);
     $celin->setHora($_SESSION['celHora']);
     $celin->setCeluserid($_SESSION['id']);
     $celin->setIgreja($_SESSION['igrejaId']);
